@@ -1,0 +1,30 @@
+.city-input {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+
+  .input-city {
+    margin: 0;
+    margin-right: 10px;
+    margin-right: 10px;
+
+    border: none;
+    border-radius: 5px;
+
+    flex-grow: 1;
+  }
+
+  button {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+
+    padding: 3px 7px;
+    
+    &:hover {
+      background-color: #fff;
+    }
+  }
+}
+

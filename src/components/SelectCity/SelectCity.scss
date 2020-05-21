@@ -1,0 +1,31 @@
+.select {
+  top: 60px;
+  left: 17px;
+
+  position: absolute;
+  z-index: 100;
+  background: #ffffff;
+  display: block;
+  //width: 100%;
+  border: 1px solid #eee;
+  max-height: 200px;
+  overflow: auto;
+
+  padding: 0;
+
+  flex-grow: 1;
+
+
+  .select__item {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    background: none;
+    box-shadow: none;
+    border: none;
+    
+    &:hover {
+      background-color: #eee;
+    }
+  }
+}
